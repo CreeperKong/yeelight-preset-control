@@ -65,8 +65,6 @@ jobs:
           - x86_64
           - arm64
           - ppc64le
-          - riscv64
-          - s390x
         include:
           - arch: x86_64
             platform: amd64
