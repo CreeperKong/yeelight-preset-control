@@ -17,9 +17,6 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - target: windows-x86
-            os: windows-latest
-            py_arch: x86
           - target: windows-x64
             os: windows-latest
             py_arch: x64
